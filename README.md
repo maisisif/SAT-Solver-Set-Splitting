@@ -84,3 +84,7 @@ Benchmark 1: python3 set_splitting.py -i instances/slow-hard.in -o formula.cnf -
   Time (mean ± σ):      28.5 ms ±   4.2 ms    [User: 20.7 ms, System: 6.6 ms]
   Range (min … max):    26.4 ms …  56.6 ms    50 runs
 ```
+
+I tried making bigger and bigger instances to slow the solver down, but Glucose still solves them almost immediately and it was not easy to create such instances. For Set Splitting the conditions are easy, so even if I use very large inputs, they do not create enough difficulty for the solver to hit those 10 seconds.
+As a result, the biggest instance I made is included, but it still solves very fast.
+
