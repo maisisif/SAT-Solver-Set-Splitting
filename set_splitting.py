@@ -152,7 +152,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "-i",
         "--input",
-        default="instances/small-sat.in",
+        default="input.in",
         type=str,
         help=(
             "The instance file."
